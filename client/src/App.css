@@ -1,0 +1,60 @@
+.nav-item, .nav-link{
+  transition: all 0.4s;
+  color: gray;
+}
+
+
+
+.nav-item.active{
+  transform: scale(1.2);
+}
+
+.nav-item.active .nav-link{
+  color: dodgerblue;
+}
+
+.card-img-container{
+  position: relative;
+}
+
+.transition-all-1000ms{
+  transition: all 1s;
+}
+
+.transition-all-500ms{
+  transition: all 0.5s;
+}
+
+#home-img{
+  position: relative;
+  background-image: url('./img/Bank.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 400px;
+}
+
+#home-img-title{
+  color: #232323;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 500px;
+  text-align: center;
+  padding: 15px;
+  transform: translate(-50%,-50%);
+  background: rgba(255,255,255,0.6);
+  backdrop-filter: blur(5px);
+}
+
+#user-login-cards-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  margin-top: 20px;
+}
+
+.form div{
+  margin-bottom: 15px;
+}
