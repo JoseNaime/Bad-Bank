@@ -11,6 +11,8 @@
 
 This project was developed for the MIT Xpro Full-Stack (MERN) course, this project emulates an banking app (no security included), in which you can create accounts, create deposits and withdraws.
 
+[![Bad Bank App](https://i.ytimg.com/vi/EQL9SzwfZqk/maxresdefault.jpg)](https://www.youtube.com/watch?v=EQL9SzwfZqk "Bad Bank App") 
+
 ## Instalation
 These steps are to start running the project on a local machine
 1. Download/clone this project
